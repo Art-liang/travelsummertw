@@ -1,0 +1,698 @@
+
+.mb-4 {
+    margin-bottom: 0.5rem!important;
+}
+
+.policy h3 {
+    font-size: 1.2rem !important;}
+
+/*修改部份*/
+
+body {
+    width: 100%;
+    background: url(../images/bg.jpg) repeat top fixed #FF641E;
+}
+
+ .footer {
+    background-color: #21201f; 
+
+}
+
+header {
+    background-color: #006db2;
+}
+
+/* wrapper kv-主視覺 */
+
+/* .wrapper {
+    background: #000000;} */
+    /* 也可以固定主視覺背景 */
+
+
+.wrap-topview {
+    background: url(../images/kv-bg.jpg) no-repeat top;
+    /* 主視覺背景 */
+    height: 700px;
+}
+
+
+
+/* main-section 內容檔次 */
+
+.main-section {
+    background: transparent !important;
+}
+
+.toppic-pid-box {
+    background-color: #fff7ea; /* 改背景顏色 */
+    /* border: 5px solid #2e3292; 改border顏色 */
+}
+
+/* 活動說明 */
+
+.policyBox {
+    /* background-color: #0075c9; */
+    background: url(../images/wave1.png) repeat ; 
+
+}
+
+.policy h3 {
+    color: #FFF;
+    border: 2px solid #fff;
+}
+
+.policy h4, .policy p span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+.policy ul li {
+color: #FFF!important;
+}
+
+.policy p {
+    
+    
+}
+
+/* RESPONSIVE
+-------------------------------------------------- */
+@media (max-width: 1600px) {
+ 
+    .image-button img {
+        width: 73%;}
+
+
+          .button-container {
+        
+            position: relative;
+            top: -6%;
+            left: calc(42% - 416px) !important;
+            width: 37% !important;
+        }
+
+        .kv {
+            max-width: 80%; /* 调整图像的最大宽度 */
+            height: auto;
+            /* transform: translateY(20px); 向下移动图像，根据需要进行调整 */
+          }
+
+
+
+}
+
+@media (max-width: 1366px) {
+ 
+    
+    .image-button img {
+        width: 73%;}
+
+        .button-container {
+            position: relative;
+            top: -6%;
+            left: calc(31% - 416px);
+            width: 37%;
+        }
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+
+    .tab_bar ul li a {
+        line-height: 30px !important;
+}
+
+.button-container {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    left: 9%;
+  }
+}
+
+/* APP and mobile */
+@media (max-width: 576px) {
+
+    .mm-wrap-topview .title_kv .kv {
+        height: auto;
+    }
+
+    .toppic-pid-box h3.sub-title img{
+        width: 56% !important;
+    }
+}
+
+
+@media (max-width: 1025px){
+
+
+.tab_bar ul li a {
+    font-size: 1rem;
+    line-height: 20px;
+}
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝修改從這裡開始＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+/*.toppic-pid-box{padding-top: 0 !important;border-radius: 0 0 1rem 1rem !important;}*/
+.toppic-pid-box{border-radius: 0 0 1rem 1rem !important;}
+.toppic-pid-box .toppic-title{background-color: #ca0000 !important;padding: 0.5rem 0;}
+.toppic-pid-box .toppic-title h3{border-bottom: 1px solid #FFF;border-top: 1px solid #FFF;margin-bottom: 0;font-style: italic;padding: 0 0 0.5rem;cursor: pointer;}
+.toppic-pid-box .toppic-title h3 span{color: #fff000;font-size: 2.5rem;padding: 0 0.1rem;}
+.toppic-pid-box .toppic-title h3 span span{font-size: 1.8rem;}
+.toppic-pid-box .toppic-title h3 span.sm{color: #fff000;font-size: 1.3rem;padding: 0 0 0 0.5rem;}
+.toppic-pid-box .toppic-title h3.m-title{display: none;}
+
+.tab_bar{width: 100%; margin-bottom: 0;  padding: 0;}
+.tab_bar ul{margin-bottom: 0;}
+.tab_bar ul li{width: 20%;border: none;outline: none;text-align: center;display: inline-block;}
+.tab_bar ul li a{line-height: 60px;font-size: 1.1rem;color: #FFF;}
+.tab_bar ul li:nth-child(odd){background-color:#559dcf;}
+/* .tab_bar ul li:nth-child(odd){background-color:#f9e45c;} */
+
+.tab_bar ul li:nth-child(even){background-color:#4395cf;}
+/* .tab_bar ul li:nth-child(1){border-radius: 1rem 0 0 0;}
+.tab_bar ul li:nth-child(5){border-radius: 0 1rem 0 0;} */
+
+.Activity{padding: 40px;}
+.Activity img{width: 100%;}
+.Activity h5{
+    font-size: 1.5rem;
+    color:#af7e43;
+}
+.Activity p{
+    font-size: 1rem;
+    margin: 0 auto;    
+    padding-bottom: 0.5rem;
+    color:#af7e43;
+}
+.Activity p span{color: #999}
+.Activity p span a{color: #999}
+.Activity{
+  text-align: center;
+}
+
+
+.mobile{display: none;}
+
+.titlebox-top{text-align: center;background-color: #FFF;border-radius: 5rem;width: 45%;margin:0 auto;padding: 0.5rem 0;font-weight: 400;}
+/*.titlebox-top{color: #0081cb;border: 2px solid #0081cb;box-shadow: 5px 6px #0081cb;}*/
+.titlebox_g{color: #3ec5cb;border: 2px solid #3ec5cb;box-shadow: 5px 6px #3ec5cb;}
+.titlebox_o{color: #ff755a;border: 2px solid #ff755a;box-shadow: 5px 6px #ff755a;}
+
+@keyframes Updown {
+  from {
+    margin-top: 15px;
+  }
+  to {
+    margin-top: 10px;
+  }
+}
+
+.navigation {
+    width: 52px;
+    position: fixed;
+    top: 40%;
+    right: 1%;
+    z-index: 5;
+    color: #00475b;
+}
+.navigation__link {
+    padding: 4px;
+    margin-top: 15px;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 52px;
+    background-color: #cdf8ff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7em;
+    line-height: 1.4em;
+}
+
+
+
+/* ===========修改從這裡開始============ */
+
+
+/* 旋轉按鈕 */
+
+
+/* .floatingBtn{
+    transition: 1s ease-in-out;
+ 
+} */
+/* 
+.floatingBtn{text-align: center;
+    margin-top: 100px;}
+@-webkit-keyframes rotation{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+
+
+    
+}
+ */
+
+
+
+
+/* 
+.floatingBtn{
+    position: absolute;
+    right: 25%;top: 43%;
+    z-index: 22;
+    animation: Updown 0.8s infinite alternate;
+    right: 25%;
+    top: 43%;
+    
+  } */
+
+  /*.toppic-pid-box{padding-top: 0 !important;border-radius: 0 0 1rem 1rem !important;}*/
+.toppic-pid-box{border-radius: 0 0 1rem 1rem !important;}
+.toppic-pid-box .toppic-title{background-color: #ca0000 !important;padding: 0.5rem 0;}
+.toppic-pid-box .toppic-title h3{border-bottom: 1px solid #FFF;border-top: 1px solid #FFF;margin-bottom: 0;font-style: italic;padding: 0 0 0.5rem;cursor: pointer;}
+.toppic-pid-box .toppic-title h3 span{color: #fff000;font-size: 2.5rem;padding: 0 0.1rem;}
+.toppic-pid-box .toppic-title h3 span span{font-size: 1.8rem;}
+.toppic-pid-box .toppic-title h3 span.sm{color: #fff000;font-size: 1.3rem;padding: 0 0 0 0.5rem;}
+.toppic-pid-box .toppic-title h3.m-title{display: none;}
+
+
+
+
+.button-container {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: -22%;
+    left: calc(50% - 400px);/* 將左邊位置調整為 900px */
+} 
+
+  
+
+    /* 將圖片按鈕容器設定為固定寬度 700px，並置中於頁面 */
+    .button-container {
+      max-width: 700px;
+      margin: 29px auto;
+      position: relative;
+      left: 21%;
+    }
+
+    /* 圖片按鈕樣式 */
+    .image-button {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+    }
+
+    /* 圖片樣式 */
+    .image-button img {
+      width: 68% !important;
+      height: auto;
+    }
+
+
+    /* 超連結樣式 */
+    .image-button a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0; /* 透明度為 0，隱藏超連結文字 */
+    }
+
+
+/* 測試圖片在點擊後可以跳出新視窗的功能 */
+.image-zoom {
+    cursor: pointer;
+  }
+
+
+
+
+.policy p {
+    color: #FFF !important;
+}
+
+
+/* kv */
+.title{padding: 0 0;}
+.title_kv{width: 1140px;margin: 0 auto;z-index: 10;position: relative;}
+
+
+.kv{
+    display: block;
+    max-width: 100%;
+    position: relative;
+    position: relative;
+    bottom: -4%;
+    /* transform: translateY(25px) !important; */
+
+}
+
+   
+
+
+
+/* 手機版的BG */
+
+/* iPad 直式 size800x600 */
+/* @media(max-width: 970px){
+    .title_kv{width: 100%;height: auto;display: block;}
+    .title_kv img.kv{max-width: 85%;margin: 10% auto 0;left: 0;right: 0;}
+    .kv{position: absolute;margin: 0 auto;}
+} */
+
+
+
+@media (max-width: 1500px){
+    
+    .image-button img {
+        width: 100%;
+        height: auto;
+    }
+
+
+.kv{
+max-width: 100%;
+/* transform: translateY(42px) !important; */
+}
+}
+
+
+
+
+
+
+@media(max-width: 970px){
+.wrap-topview{display: none;margin-top:0 !important;}
+.m-wrap-topview{display: block;}
+}
+
+/* kv */
+.title{padding: 0 0;}
+.title_kv{
+        width: 1140px;
+        margin: 0 auto;
+        z-index: 10;
+        position: relative;
+        height: 800px;
+        margin-top: 68px;
+}
+
+
+@media (max-width: 970px){
+.kv_bg_m {
+    max-width: 100%;
+    margin: auto 0;
+    left: 0;
+    right: 0;
+}
+
+}
+
+
+/* APP and mobile */
+@media (max-width: 500px){
+	.toppic-pid-box .toppic-title h3.m-title{display: block;}
+	.toppic-pid-box .toppic-title h3{font-size: 1.4rem !important;line-height: 1.1 !important;}
+	.toppic-pid-box h4{font-size: 1.2rem;padding: 0.3rem 0;}
+	.toppic-pid-box{background-color: #f1f1f1!important;border-radius: 0!important;}
+
+    .title_kv{width: 100%;margin: 0 auto;height: auto;}
+    .title_kv img{max-width: 100%;height: auto;}
+    .footer-mm{background-color: #000 !important ;}
+}
+
+/* 
+@media (max-width: 970px)
+.btn_01 {
+    top: 40%;
+    width: 11%;
+    width: 11%;
+} */
+
+
+@media(max-width: 970px){ 
+    .mobile{display: block;}
+    .wrap-topview{display: none;margin-top:0 !important;}
+    .m-wrap-topview{display: block;}
+	.title{max-width: 100% !important;flex: 0 0 100% !important;/*padding: 2rem 0 0;*/}
+	.topBanner-box {padding-bottom: 1rem;}
+	.title_kv{width: 100%;margin: 0 auto;height: auto;}
+    .title_kv img{max-width: 100%;}
+    .container {max-width: 100% !important;}
+    .btn_01{top: 40%;width: 11%;width: 11%;}
+    .message {padding: 20px;}
+}
+
+
+
+
+
+@media (max-width: 1025px){
+
+
+.tab_bar ul li a {
+    font-size: 1rem !important;
+    line-height: 20px !important;
+}
+
+.kv bounce-in-fwd{
+    max-width: 200px;
+    padding-left: -7px 0;
+    right: 130%;
+    position: relative;
+    }
+
+    image-link {
+        position: absolute;
+        top: 75%;
+        left: 56%;
+        transform: translate(-73%, -50%) !important;
+        width: 36% !important;
+       
+    }
+}
+
+@media (max-width: 970px){
+.mobile {
+    display: block;
+}
+.image-link {
+    position: absolute;
+    top: 75%;
+    left: 56%;
+    transform: translate(-70%, -50%) !important;
+    width: 14% !important;
+
+}
+}
+@media (max-width: 1025px){
+
+
+.tab_bar ul li {
+    padding: 10px 0;
+}
+.tab_bar ul li {
+    width: 20%;
+    border: none;
+    outline: none;
+    text-align: center;
+    display: inline-block;
+}
+}
+
+
+
+/* 再重新寫一次 */
+
+.overlay-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .image-link {
+    position: absolute;
+top: 75%;
+    left: 53%;
+    transform: translate(-60%, -50%);
+    width: 14%;
+
+      
+  }
+
+
+  
+  @media (min-width: 1366px) {
+    .image-link {
+      display: block;
+    }
+  }
+
+
+  .kv_tit{width: 100%;max-width: 448px;margin: 105px auto 35px;display: block;margin-left: calc(50% - 550px);}
+/*.main-section{background: url(../images/kv_bg.png) bottom center no-repeat;}*/
+.content{max-width: 1140px;padding: 30px 70px ;background: #fff;margin: 0 auto;position: relative;font-size: 1.1em;border-top-left-radius: 20px;border-top-right-radius: 20px;}
+.footer{ background: #000;bottom: 0;}
+.divbox01_PP a.gomaji_home{ background-size: contain; background-position: bottom left; }
+.content p{color: #444;margin-top: 3vh;}
+.content p b{color: #266742;font-size: 1.3em;}
+.content ul{ list-style-type: disc; padding:0 15px; }
+.content ul li{ line-height: 1.6em; color: #444;margin-top: 1vh;}
+.content ul li b{ font-weight: bolder; font-size: 1.1em; color: #266742;}
+
+
+@media (max-width: 576px) {
+    /* iPhone 尺寸的屏幕 */
+    
+    .toppic-pid-box {
+      
+        margin-bottom: 0 !important;
+    }
+
+    .Activity img {
+        width: 93% !important;
+    }
+
+
+    .Activity {
+        padding: 16px 0;
+    }
+
+    .image-zoom{
+        padding-top: 0rem !important;
+    }
+    
+    .sub-title {
+        font-size: 16px!important;
+    }
+    .t-13 {
+        font-size: 16px !important;
+    }
+    .mb-4 {
+        margin-bottom: -15px!important;
+    }
+    .mb-1 {
+        margin-bottom: 1px!important;
+    }
+  
+    .toppic-pid-box {
+        
+        padding: 0 !important;
+    }
+   
+
+    .toppic-pid-box h3.sub-title img {
+      
+        padding-bottom: 1rem;
+    }
+
+
+    .policy h3 {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+.kv bounce-in-fwd{
+    max-width: 200px;
+    padding-left: -7px 0;
+    right: 130%;
+    position: relative;
+    }
+
+
+    .tab_bar ul li a {
+        line-height: 15px !important;
+        font-size: 15px;
+    }
+
+
+    .Activity p {
+        font-size: 14px;
+    }
+
+}
+
+
+/* 泳圈btn */
+
+
+
+
+/* .image-bnbutton {
+    overflow: hidden;
+    display: inline-block;
+    width: 50%; 
+    max-width: 500px; 
+    position: relative;
+}
+
+
+.bn-button-container {
+
+
+    margin: 0 auto;
+    position: relative;
+    top: -32%;
+    left: calc(50% - 400px);
+} */
+
+
+@media (max-width: 576px) {
+    .toppic-pid-box {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .image-link {
+        position: absolute;
+        top: 75%;
+        left: 52%;
+        transform: translate(-68%, -54%);
+        width: 14% !important;
+    }
+
+  }
+  
+
+  @media (max-width: 576px) {
+    .toppic-pid-box {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .Activity h5 {
+        font-size: 16px !important; 
+  }
+
+  .Activity p {
+    font-size: 12px !important;
+    padding: 0px !important;
+
+}
+
+.policy h3 {
+    width: 90% !important;
+    font-size: 16px !important;
+}
+
+  }
+
+
+  .text-area1{
+
+  }
